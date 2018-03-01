@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.right-container {
+    background-image: url("../images/rightcontainerbg.jpg");
+    background-size: cover;
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-container-content {
+    color: #f7f9fe;
+    font-family: "Open Sans", sans-serif;
+    padding: 80px 0px 0px 0px;
+    text-align: center;
+}
+
+.right-container-content h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.left-container {
+    background-color: #C8956B;
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-container-content {
+    margin: 80px 0px 0px 0px;
+    background-color: #486160;
+    box-shadow: #000 4px 4px 20px;
+    padding: 20px;
+}
+
+.left-container-content h1 {
+    color: #f7f9fe;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    background-color: #899E57;
+    padding: 10px;
+}
+
+.form-registration {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+}
+
+.left-container-content form label {
+    color: #ecf1f2;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    margin: 10px 10px 0px 10px;
+}
+
+.left-container-content form input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 10px 20px 10px;
+    display: block;
+}
+
+.left-container-content form select {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0px 20px 10px;
+}
+
+.float-left-input {
+    float: left;
+}
+
+/* When width reaches 800px or less */
+@media only screen and (max-width: 800px) {
+	.right-container  {
+	    flex: 0 0 0;
+	}
+	.right-container-content {
+		display: none;
+	}
+	.left-container-content form input {
+		-webkit-appearance: none;
+	}
+	.left-container-content form select {
+		-webkit-appearance: none;
+	}
+}
