@@ -93,10 +93,4 @@ main {
 	.right-container-content {
 		display: none;
 	}
-	.left-container-content form input {
-		-webkit-appearance: none;
-	}
-	.left-container-content form select {
-		-webkit-appearance: none;
-	}
 }
