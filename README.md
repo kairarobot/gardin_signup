@@ -8,4 +8,4 @@ A registration page that is fully responsive.
 
 #### [Open](http://kaira.one/gardin_signup)
 
-![preview](https://github.com/kairaygun/zoom_subscribe/blob/master/assets/images/preview.png)
+![preview](https://github.com/kairaygun/gardin_signup/blob/master/assets/images/preview.png)
